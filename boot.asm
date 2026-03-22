@@ -27,3 +27,4 @@ done:
     hlt ;Stop the CPU Exec
 
 times 510 - ($ - $$) db 0
+dw 0xAA55; 'magic' so that it is recognized as a boot sector
